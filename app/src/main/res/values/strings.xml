@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">click away</string>
+    <string name="hello_world_text">Hello World!</string>
+    <string name="human_stage_one">Infant</string>
+    <string name="human_stage_two">Toddler</string>
+    <string name="human_stage_three">Adolescent</string>
+    <string name="human_stage_four">Teenager</string>
+    <string name="human_stage_five">Young Adult</string>
+    <string name="human_stage_six">Adult</string>
+    <string name="human_stage_seven">Senior</string>
+</resources>
