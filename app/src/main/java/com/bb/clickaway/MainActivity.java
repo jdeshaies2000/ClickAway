@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView imageView;
 
-    private String concatText = "";
+    //private String concatText = "";
     private int yearCounterInt = 0;
 
     @Override
@@ -32,25 +32,11 @@ public class MainActivity extends AppCompatActivity {
         myTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Toast.makeText( MainActivity.this, "Pressed Text!!", Toast.LENGTH_SHORT).show();
+                Toast.makeText( MainActivity.this, "Pressed Text!!", Toast.LENGTH_SHORT).show();
                 Log.d("TAG_X",  "Text Pressed ...");
-                concatText += "0";
+                //concatText += "0";
 
                 ++yearCounterInt;
-
-                switch (yearCounterInt) {
-                    case 1:
-                        ageTextView.setText(R.string.human_stage_one);
-                        Toast.makeText( MainActivity.this, "Age is 1", Toast.LENGTH_SHORT).show();
-                        break;
-
-                    case 2:
-                        ageTextView.setText(R.string.human_stage_two);
-                        Toast.makeText( MainActivity.this, "Age is 2", Toast.LENGTH_SHORT).show();
-                        break;
-
-                    default:
-                }
 
                 if ((yearCounterInt >= 0) && (yearCounterInt < 2))
                     ageTextView.setText(R.string.human_stage_one);

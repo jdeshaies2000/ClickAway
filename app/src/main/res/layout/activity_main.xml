@@ -21,7 +21,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="@string/hello_world_text"
+        android:text="@string/human_stage_zero"
         android:textColor="#0099FF"
         android:padding="16dp"
         android:textStyle="bold"

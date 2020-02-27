@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">click away</string>
-    <string name="hello_world_text">Hello World!</string>
+    <string name="human_stage_zero">0</string>
     <string name="human_stage_one">Infant</string>
     <string name="human_stage_two">Toddler</string>
     <string name="human_stage_three">Adolescent</string>
